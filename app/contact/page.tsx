@@ -1,11 +1,5 @@
-import type { Metadata } from 'next';
 "use client";
 import { useState } from "react";
-
-export const metadata: Metadata = {
-  title: "Contact – QR Kit",
-  description: "Contact QR Kit. We typically reply within 1–2 business days at contact@qrkit.app.",
-};
 
 export default function Page() {
   const [sent, setSent] = useState(false);
