@@ -1,6 +1,6 @@
-import type { MetadataRoute } from 'next'
+import type { MetadataRoute } from 'next';
 
-const BASE = 'https://qrkit.app'
+const BASE = 'https://qrkit.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
