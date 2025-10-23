@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About QR Kit – Privacy-First QR Code Generator',
-  description: 'Learn about QR Kit: privacy-first, all client-side QR code generation, built by Plat Labs in Columbus, GA, USA. No data collection, reliable SVG export, print-safe defaults.'
+  description: 'Learn about QR Kit: privacy-first, all client-side QR code generation, built by Plat Labs in Columbus, GA, USA. No data collection, reliable SVG export, print-safe defaults.',
 };
 
 export default function AboutPage() {

@@ -394,6 +394,12 @@ export default function HomePage() {
                   Terms of Service
                 </a>
                 <a
+                  href="/about"
+                  className="text-sm text-primary hover:underline focus:outline-none focus:underline"
+                >
+                  About
+                </a>
+                <a
                   href="/contact"
                   className="text-sm text-primary hover:underline focus:outline-none focus:underline"
                 >
@@ -424,7 +430,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <a 
-                    href="mailto:admin@ripstuff.net" 
+                    href="mailto:contact@qrkit.app" 
                     className="hover:text-primary focus:text-primary focus:outline-none"
                   >
                     Email Support

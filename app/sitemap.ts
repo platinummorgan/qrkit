@@ -7,6 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: `${BASE}/`, lastModified: now },
     { url: `${BASE}/guides`, lastModified: now },
+    { url: `${BASE}/guides/wifi-qr-codes`, lastModified: now },
     { url: `${BASE}/guides/event-checkin`, lastModified: now },
     { url: `${BASE}/guides/brand-safe-qr-design`, lastModified: now },
     { url: `${BASE}/faq`, lastModified: now },
