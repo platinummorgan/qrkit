@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About QR Kit – Privacy-First QR Code Generator',
-  description: 'Learn about QR Kit: privacy-first, all client-side QR code generation, built by Plat Labs in Columbus, GA, USA. No data collection, reliable SVG export, print-safe defaults.',
+  description: 'Learn about QR Kit: privacy-first, all client-side QR code generation, built by Platova Labs in Columbus, GA, USA. No data collection, reliable SVG export, print-safe defaults.',
 };
 
 export default function AboutPage() {
@@ -14,7 +14,7 @@ export default function AboutPage() {
         <strong>QR Kit</strong> is a privacy-first QR code generator designed for speed, reliability, and trust. All QR codes are generated locally in your browser—your data never leaves your device. No sign-up, no tracking, and no server-side storage. The app works offline after loading, so you can use it anywhere.
       </p>
       <p>
-        <strong>Who builds QR Kit?</strong> QR Kit is developed and maintained by Plat Labs, an independent software studio based in Columbus, Georgia, USA. Our mission is to provide reliable, trustworthy tools that respect your privacy and work anywhere.
+        <strong>Who builds QR Kit?</strong> QR Kit is developed and maintained by Platova Labs, an independent software studio based in Columbus, Georgia, USA. Our mission is to provide reliable, trustworthy tools that respect your privacy and work anywhere.
       </p>
       <p>
         <strong>Why trust QR Kit?</strong> We never collect your data. The generator works offline after the page loads, and you can export QR codes in SVG for perfect print quality. There are no accounts, no analytics, and no tracking.
@@ -30,7 +30,7 @@ export default function AboutPage() {
         <li>Open, transparent privacy policy</li>
       </ul>
       <p className="mb-4">
-        For details, see our <Link href="/privacy" className="underline">Privacy Policy</Link>, explore our <Link href="/guides" className="underline">Guides</Link>, or <Link href="/contact" className="underline">Contact us</Link>.
+        For details, see our <Link href="/privacy" className="underline">Privacy Policy</Link>, explore our <Link href="/guides" className="underline">Guides</Link>, <Link href="/contact" className="underline">Contact us</Link>, or visit <a href="https://platovalabs.com" className="underline" target="_blank" rel="noopener noreferrer">Platova Labs</a>.
       </p>
       <p className="text-xs text-gray-500">&copy; {new Date().getFullYear()} Plat Labs, Columbus, GA, USA</p>
     </main>

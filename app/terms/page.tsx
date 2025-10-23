@@ -124,8 +124,8 @@ export default function Page() {
           <h2 className="text-2xl font-semibold mt-8 mb-4">Contact Information</h2>
           <p>
             If you have any questions about these Terms of Service, please contact us at{' '}
-            <a href="mailto:admin@ripstuff.net" className="text-primary hover:underline">
-              admin@ripstuff.net
+            <a href="mailto:support@platovalabs.com" className="text-primary hover:underline">
+              support@platovalabs.com
             </a>.
           </p>
         </section>

@@ -43,20 +43,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               {
                 "@context": "https://schema.org",
                 "@type": "Organization",
-                "name": "QR Kit",
-                "url": "https://qrkit.app",
+                "name": "Platova Labs",
+                "url": "https://platovalabs.com",
                 "logo": "https://qrkit.app/logo.png"
               },
               {
                 "@context": "https://schema.org",
                 "@type": "WebSite",
                 "name": "QR Kit",
-                "url": "https://qrkit.app",
-                "potentialAction": {
-                  "@type": "SearchAction",
-                  "target": "https://qrkit.app/?q={search_term_string}",
-                  "query-input": "required name=search_term_string"
-                }
+                "url": "https://qrkit.app"
               }
             ])
           }}
