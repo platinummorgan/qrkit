@@ -35,6 +35,32 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
+        {/* Organization and WebSite JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify([
+              {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "QR Kit",
+                "url": "https://qrkit.app",
+                "logo": "https://qrkit.app/logo.png"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": "QR Kit",
+                "url": "https://qrkit.app",
+                "potentialAction": {
+                  "@type": "SearchAction",
+                  "target": "https://qrkit.app/?q={search_term_string}",
+                  "query-input": "required name=search_term_string"
+                }
+              }
+            ])
+          }}
+        />
         {/* Google Analytics gtag */}
         <Script
           async
