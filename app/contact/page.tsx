@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-export const metadata = { title: "Contact — QR Kit" };
 export default function Page() {
   const [sent, setSent] = useState(false);
   return (
